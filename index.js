@@ -2,8 +2,8 @@ const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
 const http = require('http');
-const hostname = 'localhost';
-const port = 3000;
+//const hostname = 'localhost';
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
