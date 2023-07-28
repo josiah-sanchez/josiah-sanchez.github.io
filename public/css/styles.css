@@ -10,3 +10,14 @@
     text-align: center;
     font-weight: bold;
 }
+
+#icons {
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+}
+
+#github, #linkedin {
+    font-size: 50px;
+    padding: 1em;
+}
