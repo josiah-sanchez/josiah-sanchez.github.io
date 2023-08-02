@@ -17,6 +17,10 @@ app.get('/coursework', (req, res) => {
     res.render('coursework');
 })
 
+app.get('/professional', (req, res) => {
+    res.render('professional');
+})
+
 app.get('/contact', (req, res) => {
     res.render('contact');
 })
